@@ -1,10 +1,12 @@
 body{
     background: #eee;
+    margin: auto;
 }
 .container{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: transparent;
 }
 .screen{
     background-image: url("./assests/couple1.jpeg");
@@ -151,7 +153,7 @@ a, a:active{
 #lunch-image{
     height: 50vh;
     margin: auto;
-    background-size: contain;
+    background-size: cover;
     background-image: url("./assests/lunch.webp");
     border-radius: 20px;
 }
@@ -166,7 +168,7 @@ a, a:active{
 }
 #last-screen{
     /* position: absolute; */
-    background: blue;
+    /* background: blue; */
     background-size: cover;
     background-image: url("./assests/couple4.jpeg");
     background-repeat: no-repeat;
